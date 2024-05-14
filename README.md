@@ -1,6 +1,6 @@
 # Task-Oriented Paraphrase Analytics
 
-Code accompanying the paper *"Task-Oriented Paraphrase Analytics"* at LREC-COLING 2024.
+Code accompanying the paper [*Task-Oriented Paraphrase Analytics*](https://downloads.webis.de/publications/papers/gohsen_2024b.pdf) at LREC-COLING 2024.
 
 ## Organization
 
