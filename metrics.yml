@@ -1,0 +1,19 @@
+metrics:
+  - name: length
+    class: metrics.general_metrics.Length
+
+  - name: bleu
+    class: metrics.ngram_metrics.Bleu
+
+  - name: compression_ratio
+    class: metrics.general_metrics.CompressionRatio
+
+  - name: rouge
+    class: metrics.ngram_metrics.Rouge
+  - name: flesch_kincaid_grade_level
+    class: metrics.readability_stats.FleschKincaidGradeLevel
+  - name: pos
+    class: metrics.syntax_metrics.POSFeature
+
+  - name: sentence_bert
+    class: metrics.semantic_metrics.SentenceBERT

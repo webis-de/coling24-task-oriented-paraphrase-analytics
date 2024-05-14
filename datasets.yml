@@ -1,0 +1,48 @@
+datasets:
+  - name: msrpc
+    task: general
+    parser: paraphrase.parser.msrpc_parser.MSRPCParser
+  - name: paws
+    task: general
+    parser: paraphrase.parser.paws_parser.PAWSParser
+  - name: tapaco
+    task: general
+    parser: paraphrase.parser.tapaco_parser.TaPaCoParser
+  - name: wikipedia-ipc-silver
+    task: general
+    parser: paraphrase.parser.wikipedia_ipc_parser.WikipediaIPCParser
+
+  - name: mscoco
+    task: image-recaptioning
+    parser: paraphrase.parser.mscoco_parser.MSCocoParser
+  - name: vizwiz-captions
+    task: image-recaptioning
+    parser: paraphrase.parser.mscoco_parser.MSCocoParser
+
+  - name: google-sentence-compression
+    task: sentence-compression
+    parser: paraphrase.parser.google_sentence_compression_parser.GoogleSentenceCompressionParser
+  - name: msr-sentence-compression
+    task: sentence-compression
+    parser: paraphrase.parser.msr_parser.MSRParser
+
+  - name: turk-corpus
+    task: sentence-simplification
+    parser: paraphrase.parser.turk_corpus_parser.TurkCorpusParser
+  - name: wikilarge
+    task: sentence-simplification
+    parser: paraphrase.parser.wikilarge_parser.WikiLargeParser
+
+  - name: paradetox
+    task: style-transfer
+    parser: paraphrase.parser.paradetox_parser.ParadetoxParser
+  - name: bible-style-transfer
+    task: style-transfer
+    parser: paraphrase.parser.bible_style_parser.BibleStyleParser
+
+  - name: scitail
+    task: textual-entailment
+    parser: paraphrase.parser.scitail_parser.SciTailParser
+  - name: help
+    task: textual-entailment
+    parser: paraphrase.parser.help_parser.HelpParser
